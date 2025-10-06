@@ -130,7 +130,7 @@ services:
             - prowlarr
 
     # *****************************************************************************
-    # sonarr - Movie searching.
+    # radarr - Movie searching.
     # 
     #   Action: if you are not using this, then comment it out
     # *****************************************************************************
@@ -342,4 +342,5 @@ volumes:
     readarr-config:
     radarr-config:
     sonarr-config:
+
     qbittorrent-config:
